@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Salunke - Portfolio</title>
+    <meta name="description"
+        content="Portfolio of  gaurav, a creative web developer and designer specializing in modern, interactive web experiences.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">GS.</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content reveal">
+            <h1>Hi, I'm <span class="highlight">Gaurav Salunke</span></h1>
+            <h2>Java Developer</h2>
+            <p>I build interactive and modern Java-based software applications.</p>
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+        </div>
+        <div class="hero-graphic reveal">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Java developer with a strong focus on building efficient and reliable
+                        applications. I love transforming complex problems into simple and practical software solutions.
+                    </p>
+                    <p>My journey in tech has been driven by a relentless curiosity and a desire to build things that
+                        make a difference.</p>
+                </div>
+                <div class="skills">
+                    <div class="skill-tag">CSS</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">BootStrap</div>
+                    <div class="skill-tag">Java</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">MySQL</div>
+                    <div class="skill-tag">Oracle DB</div>
+                    <div class="skill-tag">Spring Boot</div>
+                    <div class="skill-tag">Django</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">GitHub</div>
+                    <div class="skill-tag">Hibernate</div>
+                    <div class="skill-tag">REST APIs</div>
+                    <div class="skill-tag">Postman API</div>
+                    <div class="skill-tag">Figma</div>
+                    <div class="skill-tag">Canva</div>
+                    <div class="skill-tag">Linux</div>
+                    <div class="skill-tag">Virtualization</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container reveal">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1681487985079-b299ac8ba1df?q=80&w=1514&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dfit=crop" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>Green Crate</h3>
+                        <p>A modern e-commerce solution with dynamic cart and checkout flow.</p>
+                        <a href="https://github.com/gaura9v/Green-Crate" class="project-link">Live Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1720008915560-e7e723c0bfc8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dfit=crop" alt="Finance Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>Code Hub</h3>
+                        <p>Built a web-based platform enabling students to practice coding, solve problems, and improve problem-solving skills.</p>
+                        <a href="https://github.com/gaura9v/Code-Hub" class="project-link">Live Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1677252438450-b779a923b0f6?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dfit=crop" alt="Social Network App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Audio Steganography</h3>
+                        <p>A software application for securely sending and receiving messages using encryption and audio steganography.</p>
+                        <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">Currently open for new opportunities. Let's build something amazing together.</p>
+            <form class="contact-form">
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="from_email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/gaura9v"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/gauravsalunkee"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/gs038/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/gauravsalunkee?igsh=MTdiZThsemVhZHcweQ%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2026 Gaurav Salunke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
